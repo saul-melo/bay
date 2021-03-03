@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A7B300A825EF0EB4008FA7C3 /* PlaceDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7B300A725EF0EB4008FA7C3 /* PlaceDetail.swift */; };
+		A7B300AB25EF0EEB008FA7C3 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7B300AA25EF0EEB008FA7C3 /* MapView.swift */; };
+		A7B300AE25EF0F5D008FA7C3 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7B300AD25EF0F5D008FA7C3 /* CircleImage.swift */; };
 		A7BC609425EE07B400DD87D4 /* BayApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7BC609325EE07B400DD87D4 /* BayApp.swift */; };
 		A7BC609625EE07B400DD87D4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7BC609525EE07B400DD87D4 /* ContentView.swift */; };
 		A7BC609825EE07B500DD87D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A7BC609725EE07B500DD87D4 /* Assets.xcassets */; };
@@ -14,6 +17,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A7B300A725EF0EB4008FA7C3 /* PlaceDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceDetail.swift; sourceTree = "<group>"; };
+		A7B300AA25EF0EEB008FA7C3 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		A7B300AD25EF0F5D008FA7C3 /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
 		A7BC609025EE07B400DD87D4 /* Bay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bay.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7BC609325EE07B400DD87D4 /* BayApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BayApp.swift; sourceTree = "<group>"; };
 		A7BC609525EE07B400DD87D4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -57,6 +63,9 @@
 				A7BC609725EE07B500DD87D4 /* Assets.xcassets */,
 				A7BC609C25EE07B500DD87D4 /* Info.plist */,
 				A7BC609925EE07B500DD87D4 /* Preview Content */,
+				A7B300A725EF0EB4008FA7C3 /* PlaceDetail.swift */,
+				A7B300AA25EF0EEB008FA7C3 /* MapView.swift */,
+				A7B300AD25EF0F5D008FA7C3 /* CircleImage.swift */,
 			);
 			path = Bay;
 			sourceTree = "<group>";
@@ -138,7 +147,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A7B300A825EF0EB4008FA7C3 /* PlaceDetail.swift in Sources */,
+				A7B300AB25EF0EEB008FA7C3 /* MapView.swift in Sources */,
 				A7BC609625EE07B400DD87D4 /* ContentView.swift in Sources */,
+				A7B300AE25EF0F5D008FA7C3 /* CircleImage.swift in Sources */,
 				A7BC609425EE07B400DD87D4 /* BayApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
