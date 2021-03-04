@@ -17,11 +17,11 @@ struct PlaceDetail: View {
                 .offset(y: -130)
                 .padding(.bottom, -130)
             VStack(alignment: .leading) {
-                Text("Ferry Buidling")
+                Text(places[0].name)
                     .font(.title)
                     .fontWeight(.bold)
                 Divider()
-                Text("About the Ferry Building")
+                Text(places[0].description)
             }
             .padding()
             Spacer()
