@@ -1,7 +1,9 @@
 [
 	{
+        "id": 1,
 		"name": "Ferry Building",
 		"description": "A plaza of restaurants and grocery shops",
+        "imageName": "ferrybuilding",
 		"coordinates": {
 			"latitude": 37.7955,
 			"longitude": -122.3937

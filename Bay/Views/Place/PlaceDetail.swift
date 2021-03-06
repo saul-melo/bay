@@ -8,29 +8,33 @@
 import SwiftUI
 
 struct PlaceDetail: View {
+    var place: Place
     var body: some View {
-        VStack(alignment: .leading) {
-            MapView()
-                .frame(height: 300)
+        ScrollView {
+            MapView(coordinate: place.locationCoordinate)
                 .ignoresSafeArea(edges: .top)
-            CircleImage()
+                .frame(height: 300)
+            
+            CircleImage(image: place.image)
                 .offset(y: -130)
                 .padding(.bottom, -130)
+            
             VStack(alignment: .leading) {
-                Text(places[0].name)
+                Text(place.name)
                     .font(.title)
                     .fontWeight(.bold)
                 Divider()
-                Text(places[0].description)
+                Text(place.description)
             }
             .padding()
-            Spacer()
         }
+        .navigationTitle(place.name)
+        .navigationBarTitleDisplayMode(.inline)
     }
 }
 
 struct PlaceDetail_Previews: PreviewProvider {
     static var previews: some View {
-        PlaceDetail()
+        PlaceDetail(place: places[0])
     }
 }
