@@ -14,6 +14,7 @@ struct Place: Codable, Identifiable {
     var name: String
     var description: String
     var visited: Bool
+    var category: Category
     
     var imageName: String
     var image: Image {
@@ -28,5 +29,14 @@ struct Place: Codable, Identifiable {
     struct Coordinates: Codable {
         var latitude: Double
         var longitude: Double
+    }
+    
+    enum Category: String, CaseIterable, Codable {
+        case building = "Buildings"
+        case bridge = "Bridges"
+        case restaurant = "Restaurants"
+        case park = "Parks"
+        case museum = "Museums"
+        case stadium = "Stadiums"
     }
 }

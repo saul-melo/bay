@@ -9,6 +9,10 @@ import Foundation
 
 final class ModelData: ObservableObject {
     @Published var places: [Place] = load("placesData.json")
+    
+    var categories: [String : [Place]] {
+        Dictionary(grouping: places) { $0.category.rawValue }
+    }
 }
 
 func load<T: Decodable>(_ filename: String) -> T {

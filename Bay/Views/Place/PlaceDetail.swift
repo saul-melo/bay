@@ -44,7 +44,7 @@ struct PlaceDetail: View {
 
 struct PlaceDetail_Previews: PreviewProvider {
     static var previews: some View {
-        PlaceDetail(place: ModelData().places[0])
+        PlaceDetail(place: ModelData().places[8])
             .environmentObject(ModelData())
     }
 }

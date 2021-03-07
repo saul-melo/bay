@@ -5,6 +5,7 @@
 		"description": "A terminal for ferries that travel across the San Francisco Bay, a food hall, and an office building",
         "imageName": "ferrybuilding",
         "visited": true,
+        "category": "Buildings",
 		"coordinates": {
 			"latitude": 37.7955,
 			"longitude": -122.3937
@@ -16,6 +17,7 @@
         "description": "A 1,017-acre urban public park",
         "imageName": "ggpark",
         "visited": true,
+        "category": "Parks",
         "coordinates": {
             "latitude": 37.7687,
             "longitude": -122.4818
@@ -27,6 +29,7 @@
         "description": "A modern art museum",
         "imageName": "sfmoma",
         "visited": true,
+        "category": "Museums",
         "coordinates": {
             "latitude": 37.7855,
             "longitude": -122.4008
@@ -38,6 +41,7 @@
         "description": "A bakery konwn for its sourdough bread",
         "imageName": "boudin",
         "visited": false,
+        "category": "Restaurants",
         "coordinates": {
             "latitude": 37.8088,
             "longitude": -122.4099
@@ -49,6 +53,7 @@
         "description": "A complex of bridges spanning San Francisco Bay",
         "imageName": "baybridge",
         "visited": true,
+        "category": "Bridges",
         "coordinates": {
             "latitude": 37.7995,
             "longitude": -122.3760
@@ -60,6 +65,7 @@
         "description": "A baseball park serving as the home of the San Francisco Giants",
         "imageName": "oraclepark",
         "visited": true,
+        "category": "Stadiums",
         "coordinates": {
             "latitude": 37.7786,
             "longitude": -122.3902
@@ -71,6 +77,7 @@
         "description": "A fine arts museum",
         "imageName": "deyoung",
         "visited": false,
+        "category": "Museums",
         "coordinates": {
             "latitude": 37.7714,
             "longitude": -122.4691
@@ -82,6 +89,7 @@
         "description": "A suspension bridge spanning the Golden Gate",
         "imageName": "ggbridge",
         "visited": false,
+        "category": "Bridges",
         "coordinates": {
             "latitude": 37.8182,
             "longitude": -122.4782
@@ -93,6 +101,7 @@
         "description": "A 1,480-acre park",
         "imageName": "presidiopark",
         "visited": true,
+        "category": "Parks",
         "coordinates": {
             "latitude": 37.7989,
             "longitude": -122.4655
