@@ -15,12 +15,17 @@ struct PlaceRow: View {
                 .resizable()
                 .frame(width: 50, height: 50)
             Text(place.name)
+            Spacer()
+            if (place.visited) {
+                Image(systemName: "checkmark.circle.fill")
+                    .foregroundColor(.orange)
+            }
         }
     }
 }
 
 struct PlaceRow_Previews: PreviewProvider {
     static var previews: some View {
-        PlaceRow(place: places[0])
+        PlaceRow(place: ModelData().places[0])
     }
 }

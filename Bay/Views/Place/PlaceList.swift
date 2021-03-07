@@ -8,10 +8,28 @@
 import SwiftUI
 
 struct PlaceList: View {
+    @EnvironmentObject var modelData: ModelData
+    @State private var showNotVisitedOnly = false
+    
+    var filteredPlacesNotVisited: [Place] {
+        modelData.places.filter { place in
+            (!showNotVisitedOnly || !place.visited)
+        }
+        .sorted { $0.name.lowercased() < $1.name.lowercased() }
+    }
+    
     var body: some View {
         NavigationView {
             List {
-                ForEach(places) { place in
+                HStack {
+                    Spacer()
+                    Text("Not visited view")
+                    Toggle(isOn: $showNotVisitedOnly, label: {
+                        Text("Not visited view")
+                    }).labelsHidden()
+                }
+                
+                ForEach(filteredPlacesNotVisited) { place in
                     NavigationLink(destination: PlaceDetail(place: place)) {
                         PlaceRow(place: place)
                     }
@@ -25,5 +43,6 @@ struct PlaceList: View {
 struct PlaceList_Previews: PreviewProvider {
     static var previews: some View {
         PlaceList()
+            .environmentObject(ModelData())
     }
 }

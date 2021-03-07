@@ -19,6 +19,7 @@
 		A7BC609625EE07B400DD87D4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7BC609525EE07B400DD87D4 /* ContentView.swift */; };
 		A7BC609825EE07B500DD87D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A7BC609725EE07B500DD87D4 /* Assets.xcassets */; };
 		A7BC609B25EE07B500DD87D4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A7BC609A25EE07B500DD87D4 /* Preview Assets.xcassets */; };
+		A7F9A58425F4069400377291 /* VisitedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7F9A58325F4069400377291 /* VisitedButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		A7BC609725EE07B500DD87D4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A7BC609A25EE07B500DD87D4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		A7BC609C25EE07B500DD87D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A7F9A58325F4069400377291 /* VisitedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisitedButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,8 +94,7 @@
 			isa = PBXGroup;
 			children = (
 				A7EF680C25F2F99800A45E69 /* Place */,
-				A7B300AA25EF0EEB008FA7C3 /* MapView.swift */,
-				A7B300AD25EF0F5D008FA7C3 /* CircleImage.swift */,
+				A7F9A58725F4205B00377291 /* Helpers */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -123,6 +124,16 @@
 				A7A2F44A25F2BEE9005E5A2F /* PlaceRow.swift */,
 			);
 			path = Place;
+			sourceTree = "<group>";
+		};
+		A7F9A58725F4205B00377291 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				A7B300AA25EF0EEB008FA7C3 /* MapView.swift */,
+				A7B300AD25EF0F5D008FA7C3 /* CircleImage.swift */,
+				A7F9A58325F4069400377291 /* VisitedButton.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,6 +210,7 @@
 				A7B300AB25EF0EEB008FA7C3 /* MapView.swift in Sources */,
 				A7BC609625EE07B400DD87D4 /* ContentView.swift in Sources */,
 				A7A2F44825F2B879005E5A2F /* PlaceList.swift in Sources */,
+				A7F9A58425F4069400377291 /* VisitedButton.swift in Sources */,
 				A7B300AE25EF0F5D008FA7C3 /* CircleImage.swift in Sources */,
 				A7BC609425EE07B400DD87D4 /* BayApp.swift in Sources */,
 				A706172125F059E80034C25D /* Place.swift in Sources */,

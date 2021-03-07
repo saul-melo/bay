@@ -13,6 +13,7 @@ struct Place: Codable, Identifiable {
     var id: Int
     var name: String
     var description: String
+    var visited: Bool
     
     var imageName: String
     var image: Image {
