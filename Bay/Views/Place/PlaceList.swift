@@ -23,9 +23,10 @@ struct PlaceList: View {
             List {
                 HStack {
                     Spacer()
-                    Text("Not visited view")
+                    Text("Unexplored Only")
+                        .font(.subheadline)
                     Toggle(isOn: $showNotVisitedOnly, label: {
-                        Text("Not visited view")
+                        Text("Unvisited Only")
                     }).labelsHidden()
                 }
                 

@@ -17,7 +17,7 @@ struct ProfileSummary: View {
                     .font(.title)
                 Text("Notifications: \(profile.prefersNotifications ? "On" : "Off")")
                 Text("Sesonal photos: \(profile.seasonalPhoto.rawValue)")
-                Text("Goal date: ") + Text(profile.goalDate, style: .date)
+                Text("Landmark last visited: ") + Text(profile.lastVisited, style: .date)
             }
         }
     }
