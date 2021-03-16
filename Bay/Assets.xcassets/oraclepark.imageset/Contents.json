@@ -1,11 +1,11 @@
 {
   "images" : [
     {
-      "filename" : "attpark.jpg",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
+      "filename" : "attpark.jpg",
       "idiom" : "universal",
       "scale" : "2x"
     },

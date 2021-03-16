@@ -1,11 +1,11 @@
 {
   "images" : [
     {
-      "filename" : "presidiopark.jpg",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
+      "filename" : "presidiopark.jpg",
       "idiom" : "universal",
       "scale" : "2x"
     },

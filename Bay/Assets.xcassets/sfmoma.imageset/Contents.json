@@ -1,11 +1,11 @@
 {
   "images" : [
     {
-      "filename" : "sfmoma.jpg",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
+      "filename" : "sfmoma.jpg",
       "idiom" : "universal",
       "scale" : "2x"
     },

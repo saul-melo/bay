@@ -1,11 +1,11 @@
 {
   "images" : [
     {
-      "filename" : "ggpark.jpg",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
+      "filename" : "ggpark.jpg",
       "idiom" : "universal",
       "scale" : "2x"
     },

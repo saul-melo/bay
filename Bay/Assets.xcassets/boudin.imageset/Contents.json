@@ -1,11 +1,11 @@
 {
   "images" : [
     {
-      "filename" : "boudin.jpg",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
+      "filename" : "boudin.jpg",
       "idiom" : "universal",
       "scale" : "2x"
     },
