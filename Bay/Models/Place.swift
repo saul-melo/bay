@@ -12,6 +12,7 @@ import CoreLocation
 struct Place: Codable, Identifiable {
     var id: Int
     var name: String
+    var address: Address?
     var description: String
     var visited: Bool
     var category: Category
@@ -19,6 +20,15 @@ struct Place: Codable, Identifiable {
     var imageName: String
     var image: Image {
         Image(imageName)
+    }
+    
+    enum Category: String, CaseIterable, Codable {
+        case building = "Buildings"
+        case bridge = "Bridges"
+        case restaurant = "Restaurants"
+        case park = "Parks"
+        case museum = "Museums"
+        case stadium = "Stadiums"
     }
     
     private var coordinates: Coordinates
@@ -31,12 +41,9 @@ struct Place: Codable, Identifiable {
         var longitude: Double
     }
     
-    enum Category: String, CaseIterable, Codable {
-        case building = "Buildings"
-        case bridge = "Bridges"
-        case restaurant = "Restaurants"
-        case park = "Parks"
-        case museum = "Museums"
-        case stadium = "Stadiums"
+    struct Address: Codable {
+        var street: String
+        var city: String
+        var zip: Int
     }
 }

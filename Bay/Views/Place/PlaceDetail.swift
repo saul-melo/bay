@@ -32,8 +32,16 @@ struct PlaceDetail: View {
                         .fontWeight(.bold)
                     VisitedButton(isSet: $modelData.places[placeIndex].visited)
                 }
+                if (place.address != nil) {
+                    VStack(alignment: .leading) {
+                        Text(place.address!.street)
+                        Text(place.address!.city)
+                        Text(String(place.address!.zip))
+                    }
+                    .font(.caption)
+                }
                 Divider()
-                Text(place.description)
+                Text(place.description).allowsTightening(true)
             }
             .padding()
         }
@@ -44,7 +52,7 @@ struct PlaceDetail: View {
 
 struct PlaceDetail_Previews: PreviewProvider {
     static var previews: some View {
-        PlaceDetail(place: ModelData().places[8])
+        PlaceDetail(place: ModelData().places[0])
             .environmentObject(ModelData())
     }
 }

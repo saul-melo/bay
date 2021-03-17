@@ -2,6 +2,11 @@
 	{
         "id": 1,
 		"name": "Ferry Building",
+        "address": {
+            "street": "1 Ferry Building",
+            "city": "San Francisco",
+            "zip": 94111
+        },
 		"description": "A terminal for ferries that travel across the San Francisco Bay, a food hall, and an office building",
         "imageName": "ferrybuilding",
         "visited": true,
@@ -26,6 +31,11 @@
     {
         "id": 3,
         "name": "San Francisco Museum of Modern Art",
+        "address": {
+            "street": "151 Third St",
+            "city": "San Francisco",
+            "zip": 94103
+        },
         "description": "A modern art museum",
         "imageName": "sfmoma",
         "visited": true,
@@ -38,6 +48,11 @@
     {
         "id": 4,
         "name": "Boudin Bakery",
+        "address": {
+            "street": "Pier 39",
+            "city": "San Francisco",
+            "zip": 94133
+        },
         "description": "A bakery konwn for its sourdough bread",
         "imageName": "boudin",
         "visited": false,
@@ -62,6 +77,11 @@
     {
         "id": 6,
         "name": "Oracle Park",
+        "address": {
+            "street": "24 Willie Mays Plaza",
+            "city": "San Francisco",
+            "zip": 94107
+        },
         "description": "A baseball park serving as the home of the San Francisco Giants",
         "imageName": "oraclepark",
         "visited": true,
@@ -74,6 +94,11 @@
     {
         "id": 7,
         "name": "de Young Museum",
+        "address": {
+            "street": "50 Hagiwara Tea Garden Dr",
+            "city": "San Francisco",
+            "zip": 94118
+        },
         "description": "A fine arts museum",
         "imageName": "deyoung",
         "visited": false,
