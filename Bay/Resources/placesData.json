@@ -7,7 +7,7 @@
             "city": "San Francisco",
             "zip": 94111
         },
-		"description": "A terminal for ferries that travel across the San Francisco Bay, a food hall, and an office building",
+		"description": "A ferry terminal, food hall, and office building",
         "imageName": "ferrybuilding",
         "visited": true,
         "category": "Buildings",
@@ -82,7 +82,7 @@
             "city": "San Francisco",
             "zip": 94107
         },
-        "description": "A baseball park serving as the home of the San Francisco Giants",
+        "description": "Home of the San Francisco Giants",
         "imageName": "oraclepark",
         "visited": true,
         "category": "Stadiums",

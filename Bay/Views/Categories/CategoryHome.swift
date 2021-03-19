@@ -14,13 +14,9 @@ struct CategoryHome: View {
     var body: some View {
         NavigationView {
             List {
-                modelData.places[4].image
-                    .resizable()
-                    .scaledToFill()
-                    .frame(height: 200)
-                    .clipped()
+                PageView(pages: modelData.places.prefix(3).map { FeatureCard(place: $0) })
+                    .aspectRatio(3/2, contentMode: .fit)
                     .listRowInsets(EdgeInsets())
-                    .padding(.bottom, 40)
                 
                 ForEach(modelData.categories.keys.sorted(), id: \.self) { category in
                     CategoryRow(categoryName: category, places: modelData.categories[category]!)
