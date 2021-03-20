@@ -1,13 +1,14 @@
 {
     "aps": {
         "alert": {
-            "body": "Test message",
-            "title": "Optional title",
-            "subtitle": "Optional subtitle"
+            "body": "You are within 1 mile of the Ferry Building",
+            "title": "Ferry Building"
         },
-        "category": "myCategory",
+        "category": "PlaceNear",
         "thread-id": "5280"
     },
+    
+    "placeIndex": 0,
     
     "WatchKit Simulator Actions": [
         {
