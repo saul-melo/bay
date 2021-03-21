@@ -14,6 +14,7 @@ struct PlaceRow: View {
             place.image
                 .resizable()
                 .frame(width: 50, height: 50)
+                .cornerRadius(5)
             Text(place.name)
             Spacer()
             if (place.visited) {
@@ -21,6 +22,7 @@ struct PlaceRow: View {
                     .foregroundColor(.orange)
             }
         }
+        .padding(.vertical, 4)
     }
 }
 

@@ -9,7 +9,7 @@ import Foundation
 import SwiftUI
 import CoreLocation
 
-struct Place: Codable, Identifiable {
+struct Place: Hashable, Codable, Identifiable {
     var id: Int
     var name: String
     var address: Address?
@@ -36,12 +36,12 @@ struct Place: Codable, Identifiable {
         CLLocationCoordinate2D(latitude: coordinates.latitude, longitude: coordinates.longitude)
     }
     
-    struct Coordinates: Codable {
+    struct Coordinates: Hashable, Codable {
         var latitude: Double
         var longitude: Double
     }
     
-    struct Address: Codable {
+    struct Address: Hashable, Codable {
         var street: String
         var city: String
         var zip: Int

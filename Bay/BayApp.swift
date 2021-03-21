@@ -12,13 +12,28 @@ struct BayApp: App {
     @StateObject private var modelData = ModelData()
     
     var body: some Scene {
-        WindowGroup {
+        let mainWindow = WindowGroup {
             ContentView()
                 .environmentObject(modelData)
         }
         
+        #if os(macOS)
+        mainWindow
+            .commands {
+                PlaceCommands()
+            }
+        #else
+        mainWindow
+        #endif
+        
         #if os(watchOS)
         WKNotificationScene(controller: NotificationController.self, category: "PlaceNear")
+        #endif
+        
+        #if os(macOS)
+        Settings {
+            PlaceSettings()
+        }
         #endif
     }
 }

@@ -30,7 +30,7 @@ struct ProfileEditor: View {
             }
             
             DatePicker(selection: $profile.bayResidentSince, in: dateRange, displayedComponents: .date) {
-                Text("Last Visited").bold()
+                Text("Bay resident since").bold()
             }
         }
     }

@@ -10,14 +10,25 @@ import SwiftUI
 struct ProfileSummary: View {
     var profile: Profile
     var body: some View {
-        ScrollView {
+        List {
             VStack(alignment: .leading, spacing: 10) {
                 Text(profile.username)
                     .bold()
                     .font(.title)
-                Text("Notifications: \(profile.prefersNotifications ? "On" : "Off")")
-                Text("Bay resident since: ") + Text(profile.bayResidentSince, style: .date)
+                Divider()
+                HStack {
+                    Text("Notifications: ")
+                    Spacer()
+                    Text(profile.prefersNotifications ? "ON" : "OFF")
+                }
+                Divider()
+                HStack {
+                    Text("Bay resident since: ")
+                    Spacer()
+                    Text(profile.bayResidentSince, style: .date)
+                }
             }
+            .font(.headline)
         }
     }
 }

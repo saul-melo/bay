@@ -10,7 +10,26 @@
 		A706171E25F0587A0034C25D /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A706171D25F0587A0034C25D /* ModelData.swift */; };
 		A706172125F059E80034C25D /* Place.swift in Sources */ = {isa = PBXBuildFile; fileRef = A706172025F059E80034C25D /* Place.swift */; };
 		A706172425F067180034C25D /* placesData.json in Resources */ = {isa = PBXBuildFile; fileRef = A706172325F067180034C25D /* placesData.json */; };
+		A71A92DE26068B3100E806B9 /* PlaceList.swift in Sources */ = {isa = PBXBuildFile; fileRef = A71A92C3260687A500E806B9 /* PlaceList.swift */; };
+		A71A92E42606A55500E806B9 /* PlaceCommands.swift in Sources */ = {isa = PBXBuildFile; fileRef = A71A92E32606A55400E806B9 /* PlaceCommands.swift */; };
+		A71A92E52606A55500E806B9 /* PlaceCommands.swift in Sources */ = {isa = PBXBuildFile; fileRef = A71A92E32606A55400E806B9 /* PlaceCommands.swift */; };
+		A71A92EB2606C2A900E806B9 /* PlaceSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = A71A92EA2606C2A900E806B9 /* PlaceSettings.swift */; };
 		A71EC45126054F5E00B1AA48 /* PageControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = A71EC45026054F5E00B1AA48 /* PageControl.swift */; };
+		A73BEDE52606717000D95286 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A73BEDE42606717000D95286 /* ContentView.swift */; };
+		A73BEDE72606717200D95286 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A73BEDE62606717200D95286 /* Assets.xcassets */; };
+		A73BEDEA2606717200D95286 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A73BEDE92606717200D95286 /* Preview Assets.xcassets */; };
+		A73BEDF8260672E800D95286 /* Place.swift in Sources */ = {isa = PBXBuildFile; fileRef = A706172025F059E80034C25D /* Place.swift */; };
+		A73BEDF9260672E800D95286 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A7BC609725EE07B500DD87D4 /* Assets.xcassets */; };
+		A73BEDFA260672E800D95286 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = A79DF01525FD60BA0074F3D2 /* Profile.swift */; };
+		A73BEDFB260672E800D95286 /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A706171D25F0587A0034C25D /* ModelData.swift */; };
+		A73BEDFC260672E800D95286 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7B300AD25EF0F5D008FA7C3 /* CircleImage.swift */; };
+		A73BEDFD260672E800D95286 /* PlaceList.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7A2F44725F2B879005E5A2F /* PlaceList.swift */; };
+		A73BEDFE260672E800D95286 /* BayApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7BC609325EE07B400DD87D4 /* BayApp.swift */; };
+		A73BEDFF260672E800D95286 /* VisitedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7F9A58325F4069400377291 /* VisitedButton.swift */; };
+		A73BEE00260672E800D95286 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7B300AA25EF0EEB008FA7C3 /* MapView.swift */; };
+		A73BEE01260672E800D95286 /* PlaceRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7A2F44A25F2BEE9005E5A2F /* PlaceRow.swift */; };
+		A73BEE02260672E800D95286 /* placesData.json in Resources */ = {isa = PBXBuildFile; fileRef = A706172325F067180034C25D /* placesData.json */; };
+		A73BEE08260674E700D95286 /* PlaceDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = A73BEE07260674E700D95286 /* PlaceDetail.swift */; };
 		A77B8FD42605890600D92A96 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A77B8FD32605890600D92A96 /* Assets.xcassets */; };
 		A77B8FDB2605890600D92A96 /* WatchBay Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = A77B8FDA2605890600D92A96 /* WatchBay Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		A77B8FE22605890600D92A96 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A77B8FE12605890600D92A96 /* ContentView.swift */; };
@@ -25,7 +44,6 @@
 		A77B900326058E4000D92A96 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7B300AD25EF0F5D008FA7C3 /* CircleImage.swift */; };
 		A77B900426058E4000D92A96 /* Place.swift in Sources */ = {isa = PBXBuildFile; fileRef = A706172025F059E80034C25D /* Place.swift */; };
 		A77B900526058E4000D92A96 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A7BC609725EE07B500DD87D4 /* Assets.xcassets */; };
-		A77B900626058E4000D92A96 /* PlaceList.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7A2F44725F2B879005E5A2F /* PlaceList.swift */; };
 		A77B900726058E4000D92A96 /* placesData.json in Resources */ = {isa = PBXBuildFile; fileRef = A706172325F067180034C25D /* placesData.json */; };
 		A77B900826058E4000D92A96 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7B300AA25EF0EEB008FA7C3 /* MapView.swift */; };
 		A77B900926058E4000D92A96 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = A79DF01525FD60BA0074F3D2 /* Profile.swift */; };
@@ -99,7 +117,17 @@
 		A706171D25F0587A0034C25D /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
 		A706172025F059E80034C25D /* Place.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Place.swift; sourceTree = "<group>"; };
 		A706172325F067180034C25D /* placesData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = placesData.json; sourceTree = "<group>"; };
+		A71A92C3260687A500E806B9 /* PlaceList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceList.swift; sourceTree = "<group>"; };
+		A71A92E32606A55400E806B9 /* PlaceCommands.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceCommands.swift; sourceTree = "<group>"; };
+		A71A92EA2606C2A900E806B9 /* PlaceSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceSettings.swift; sourceTree = "<group>"; };
 		A71EC45026054F5E00B1AA48 /* PageControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageControl.swift; sourceTree = "<group>"; };
+		A73BEDE02606717000D95286 /* MacBay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MacBay.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A73BEDE42606717000D95286 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A73BEDE62606717200D95286 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A73BEDE92606717200D95286 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A73BEDEB2606717200D95286 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A73BEDEC2606717200D95286 /* MacBay.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MacBay.entitlements; sourceTree = "<group>"; };
+		A73BEE07260674E700D95286 /* PlaceDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceDetail.swift; sourceTree = "<group>"; };
 		A77B8FD12605890600D92A96 /* WatchBay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WatchBay.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A77B8FD32605890600D92A96 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A77B8FD52605890600D92A96 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -138,6 +166,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		A73BEDDD2606717000D95286 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A77B8FD72605890600D92A96 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -155,6 +190,29 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A73BEDE12606717000D95286 /* MacBay */ = {
+			isa = PBXGroup;
+			children = (
+				A73BEDE42606717000D95286 /* ContentView.swift */,
+				A73BEDE62606717200D95286 /* Assets.xcassets */,
+				A73BEDEB2606717200D95286 /* Info.plist */,
+				A73BEDEC2606717200D95286 /* MacBay.entitlements */,
+				A73BEDE82606717200D95286 /* Preview Content */,
+				A73BEE07260674E700D95286 /* PlaceDetail.swift */,
+				A71A92E32606A55400E806B9 /* PlaceCommands.swift */,
+				A71A92EA2606C2A900E806B9 /* PlaceSettings.swift */,
+			);
+			path = MacBay;
+			sourceTree = "<group>";
+		};
+		A73BEDE82606717200D95286 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				A73BEDE92606717200D95286 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
 		A77B8FD22605890600D92A96 /* WatchBay */ = {
 			isa = PBXGroup;
 			children = (
@@ -176,6 +234,7 @@
 				A77B8FEF2605890700D92A96 /* PushNotificationPayload.apns */,
 				A77B8FEB2605890700D92A96 /* Preview Content */,
 				A77B900E2605912900D92A96 /* PlaceDetail.swift */,
+				A71A92C3260687A500E806B9 /* PlaceList.swift */,
 			);
 			path = "WatchBay Extension";
 			sourceTree = "<group>";
@@ -215,6 +274,7 @@
 				A7BC609225EE07B400DD87D4 /* Bay */,
 				A77B8FD22605890600D92A96 /* WatchBay */,
 				A77B8FDE2605890600D92A96 /* WatchBay Extension */,
+				A73BEDE12606717000D95286 /* MacBay */,
 				A7BC609125EE07B400DD87D4 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -225,6 +285,7 @@
 				A7BC609025EE07B400DD87D4 /* Bay.app */,
 				A77B8FD12605890600D92A96 /* WatchBay.app */,
 				A77B8FDA2605890600D92A96 /* WatchBay Extension.appex */,
+				A73BEDE02606717000D95286 /* MacBay.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -315,6 +376,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		A73BEDDF2606717000D95286 /* MacBay */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A73BEDEF2606717200D95286 /* Build configuration list for PBXNativeTarget "MacBay" */;
+			buildPhases = (
+				A73BEDDC2606717000D95286 /* Sources */,
+				A73BEDDD2606717000D95286 /* Frameworks */,
+				A73BEDDE2606717000D95286 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MacBay;
+			productName = MacBay;
+			productReference = A73BEDE02606717000D95286 /* MacBay.app */;
+			productType = "com.apple.product-type.application";
+		};
 		A77B8FD02605890600D92A96 /* WatchBay */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = A77B8FFA2605890700D92A96 /* Build configuration list for PBXNativeTarget "WatchBay" */;
@@ -377,6 +455,9 @@
 				LastSwiftUpdateCheck = 1240;
 				LastUpgradeCheck = 1240;
 				TargetAttributes = {
+					A73BEDDF2606717000D95286 = {
+						CreatedOnToolsVersion = 12.4;
+					};
 					A77B8FD02605890600D92A96 = {
 						CreatedOnToolsVersion = 12.4;
 					};
@@ -404,11 +485,23 @@
 				A7BC608F25EE07B400DD87D4 /* Bay */,
 				A77B8FD02605890600D92A96 /* WatchBay */,
 				A77B8FD92605890600D92A96 /* WatchBay Extension */,
+				A73BEDDF2606717000D95286 /* MacBay */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		A73BEDDE2606717000D95286 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A73BEDEA2606717200D95286 /* Preview Assets.xcassets in Resources */,
+				A73BEE02260672E800D95286 /* placesData.json in Resources */,
+				A73BEDF9260672E800D95286 /* Assets.xcassets in Resources */,
+				A73BEDE72606717200D95286 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A77B8FCF2605890600D92A96 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -441,6 +534,26 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		A73BEDDC2606717000D95286 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A73BEE01260672E800D95286 /* PlaceRow.swift in Sources */,
+				A73BEDE52606717000D95286 /* ContentView.swift in Sources */,
+				A73BEDFB260672E800D95286 /* ModelData.swift in Sources */,
+				A73BEDFF260672E800D95286 /* VisitedButton.swift in Sources */,
+				A71A92EB2606C2A900E806B9 /* PlaceSettings.swift in Sources */,
+				A73BEE08260674E700D95286 /* PlaceDetail.swift in Sources */,
+				A73BEDFA260672E800D95286 /* Profile.swift in Sources */,
+				A73BEDFD260672E800D95286 /* PlaceList.swift in Sources */,
+				A73BEDF8260672E800D95286 /* Place.swift in Sources */,
+				A73BEDFE260672E800D95286 /* BayApp.swift in Sources */,
+				A71A92E52606A55500E806B9 /* PlaceCommands.swift in Sources */,
+				A73BEE00260672E800D95286 /* MapView.swift in Sources */,
+				A73BEDFC260672E800D95286 /* CircleImage.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A77B8FD62605890600D92A96 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -453,9 +566,9 @@
 				A77B900326058E4000D92A96 /* CircleImage.swift in Sources */,
 				A77B900A26058E4000D92A96 /* ModelData.swift in Sources */,
 				A77B8FE82605890600D92A96 /* ComplicationController.swift in Sources */,
-				A77B900626058E4000D92A96 /* PlaceList.swift in Sources */,
 				A77B900826058E4000D92A96 /* MapView.swift in Sources */,
 				A77B900926058E4000D92A96 /* Profile.swift in Sources */,
+				A71A92DE26068B3100E806B9 /* PlaceList.swift in Sources */,
 				A77B8FE62605890600D92A96 /* NotificationView.swift in Sources */,
 				A77B900126058E4000D92A96 /* BayApp.swift in Sources */,
 			);
@@ -472,6 +585,7 @@
 				A79DF01625FD60BA0074F3D2 /* Profile.swift in Sources */,
 				A7928B8326002DE20058781F /* PageView.swift in Sources */,
 				A7A2F44825F2B879005E5A2F /* PlaceList.swift in Sources */,
+				A71A92E42606A55500E806B9 /* PlaceCommands.swift in Sources */,
 				A7C7DB1E25F5432A006F1FBF /* CategoryHome.swift in Sources */,
 				A71EC45126054F5E00B1AA48 /* PageControl.swift in Sources */,
 				A7F9A58425F4069400377291 /* VisitedButton.swift in Sources */,
@@ -505,6 +619,56 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		A73BEDED2606717200D95286 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = MacBay/MacBay.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"MacBay/Preview Content\"";
+				DEVELOPMENT_TEAM = UVC66LGVNJ;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = MacBay/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.myportfolio.sanfranciscoproper.MacBay;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		A73BEDEE2606717200D95286 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = MacBay/MacBay.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"MacBay/Preview Content\"";
+				DEVELOPMENT_TEAM = UVC66LGVNJ;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = MacBay/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.myportfolio.sanfranciscoproper.MacBay;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
 		A77B8FF42605890700D92A96 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -756,6 +920,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		A73BEDEF2606717200D95286 /* Build configuration list for PBXNativeTarget "MacBay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A73BEDED2606717200D95286 /* Debug */,
+				A73BEDEE2606717200D95286 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		A77B8FF92605890700D92A96 /* Build configuration list for PBXNativeTarget "WatchBay Extension" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
