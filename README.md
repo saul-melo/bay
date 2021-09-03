@@ -1,4 +1,4 @@
-# Bay 
+# bay 
 
 An iOS, watchOS, macOS app showcasing the Bay
 
