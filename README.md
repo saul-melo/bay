@@ -1,6 +1,6 @@
 # Bay 
 
-An iOS, watchOS, macOS app showcasing a set of places in the Bay Area
+An iOS, watchOS, macOS app showcasing the Bay
 
 - Embedded Apple Maps sections display the location of each place
 - Ability to mark places as "Visited"
