@@ -1,8 +1,2 @@
-# bay 
-iOS, watchOS, macOS app
-
-- embedded Apple Maps sections
-- ability to mark places as "Visited"
-- places can be filtered by category
- 
-v1.0.0 completed 03-21-21
+# Bay Area landmarks iOS, watchOS, macOS app
+explore Bay Area attractions and keep track of the ones you've visited
